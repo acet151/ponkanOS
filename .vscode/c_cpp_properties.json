@@ -4,7 +4,12 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "~/edk2/MdePkg/**"
+                "/home/vscode/edk2/MdePkg/Include",
+                "/home/vscode/edk2/MdePkg",
+                "/home/vscode/edk2/MdePkg/Include/X64",
+                "/home/vscode/osbook/devenv/x86_64-elf/include",
+                "${workspaceFolder}/PonkanLoaderPkg/kernel",
+                "${workspaceFolder}/kernel"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
